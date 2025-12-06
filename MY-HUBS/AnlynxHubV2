@@ -247,6 +247,13 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
+   Name = "Big Paintball 2",
+   Callback = function()
+       loadstring(game:HttpGet(('bigpaint2')))()
+   end,
+})
+
+local Button = Tab:CreateButton({
    Name = "Night Shift at Chuck E. Cheese’s",
    Callback = function()
        loadstring(game:HttpGet("https://paste.yt/P38778.txt"))
