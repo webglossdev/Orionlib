@@ -12,7 +12,7 @@ local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 -- O window Gui
 local Window = Rayfield:CreateWindow({
-   Name = "Webylynx Hub V2",
+   Name = "Webylynx Hub V2ç.1",
    Icon = 0, -- icone do troço
    LoadingTitle = "Loading Anlynx Hub...",
    LoadingSubtitle = "by webylynx",
@@ -233,9 +233,9 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
-   Name = "Prison Life - Tiger Admin",
+   Name = "Arsenal",
    Callback = function()
-       loadstring(game:HttpGet(('https://raw.githubusercontent.com/anlynxx/Orionlib/refs/heads/main/prizzlife')))()
+       loadstring(game:HttpGet(('https://raw.githubusercontent.com/anlynxx/Orionlib/refs/heads/main/arsenal')))()
    end,
 })
 
