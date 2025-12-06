@@ -249,7 +249,7 @@ local Button = Tab:CreateButton({
 local Button = Tab:CreateButton({
    Name = "Big Paintball 2",
    Callback = function()
-       loadstring(game:HttpGet(('https://github.com/anlynxx/Orionlib/raw/refs/heads/main/bigpaint2')))()
+       loadstring(game:HttpGet("https://github.com/anlynxx/Orionlib/raw/refs/heads/main/bigpaint2", true))()
    end,
 })
 
