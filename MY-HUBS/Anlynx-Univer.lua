@@ -1,6 +1,3 @@
---[[
-   https://discord.gg/2qVfTfmcVX
-]]
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "Anlynx Hub (DEPRECATED)", HidePremium = false, SaveConfig = true, ConfigFolder = "AnlynxHub"})
 local Tab = Window:MakeTab({
@@ -26,37 +23,37 @@ Tab:AddSlider({
 Tab:AddButton({
 	Name = "Walk on Walls",
 	Callback = function()
-      		loadstring(game:HttpGet(('https://raw.githubusercontent.com/anlynxx/Orionlib/refs/heads/main/walk-on-walls.lua')))()
+      		loadstring(game:HttpGet(('https://raw.githubusercontent.com/webglossdev/Orionlib/refs/heads/main/walk-on-walls.lua')))()
   	end    
 })
 Tab:AddButton({
 	Name = "Hamster Ball",
 	Callback = function()
-      		loadstring(game:HttpGet(('https://raw.githubusercontent.com/anlynxx/Orionlib/refs/heads/main/hamster-ball.lua')))()
+      		loadstring(game:HttpGet(('https://raw.githubusercontent.com/webglossdev/Orionlib/refs/heads/main/hamster-ball.lua')))()
   	end    
 })
 Tab:AddButton({
 	Name = "Fling FE (Non Spinning Working!!)",
 	Callback = function()
-      		loadstring(game:HttpGet(('https://raw.githubusercontent.com/anlynxx/Orionlib/refs/heads/main/Fling.lua')))()
+      		loadstring(game:HttpGet(('https://raw.githubusercontent.com/webglossdev/Orionlib/refs/heads/main/Fling.lua')))()
   	end    
 })
 Tab:AddButton({
 	Name = "ESP/Tracers",
 	Callback = function()
-      		loadstring(game:HttpGet(('https://raw.githubusercontent.com/anlynxx/Orionlib/refs/heads/main/esp.lua')))()
+      		loadstring(game:HttpGet(('https://raw.githubusercontent.com/webglossdev/Orionlib/refs/heads/main/esp.lua')))()
   	end    
 })
 Tab:AddButton({
 	Name = "Infinite Yield",
 	Callback = function()
-      		loadstring(game:HttpGet(('https://raw.githubusercontent.com/anlynxx/Orionlib/refs/heads/main/yield.lua')))()
+      		loadstring(game:HttpGet(('https://raw.githubusercontent.com/webglossdev/Orionlib/refs/heads/main/yield.lua')))()
   	end    
 })
 Tab:AddButton({
 	Name = "Anlynx Hub V2",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/anlynxx/Orionlib/refs/heads/main/MY-HUBS/AnlynxHubV2"))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/webglossdev/Orionlib/refs/heads/main/MY-HUBS/AnlynxHubV2"))()
   	end    
 })
 local Tab = Window:MakeTab({
@@ -67,30 +64,30 @@ local Tab = Window:MakeTab({
 Tab:AddButton({
 	Name = "Dandy's World",
 	Callback = function()
-      		loadstring(game:HttpGet(('https://raw.githubusercontent.com/anlynxx/Orionlib/refs/heads/main/dandy.lua')))()
+      		loadstring(game:HttpGet(('https://raw.githubusercontent.com/webglossdev/Orionlib/refs/heads/main/dandy.lua')))()
   	end    
 })
 Tab:AddButton({
 	Name = "Fling Things and People",
 	Callback = function()
-      		loadstring(game:HttpGet(('https://raw.githubusercontent.com/anlynxx/Orionlib/refs/heads/main/esp.lua')))()
+      		loadstring(game:HttpGet(('https://raw.githubusercontent.com/webglossdev/Orionlib/refs/heads/main/esp.lua')))()
   	end    
 })
 Tab:AddButton({
 	Name = "Natural Disaster Survival",
 	Callback = function()
-      		loadstring(game:HttpGet(('https://raw.githubusercontent.com/anlynxx/Orionlib/refs/heads/main/nds.lua')))()
+      		loadstring(game:HttpGet(('https://raw.githubusercontent.com/webglossdev/Orionlib/refs/heads/main/nds.lua')))()
   	end    
 })
 Tab:AddButton({
 	Name = "Prison Life Admin",
 	Callback = function()
-      		loadstring(game:HttpGet(('https://raw.githubusercontent.com/anlynxx/Orionlib/refs/heads/main/prizzlife')))()
+      		loadstring(game:HttpGet(('https://raw.githubusercontent.com/webglossdev/Orionlib/refs/heads/main/prizzlife')))()
   	end    
 })
 Tab:AddButton({
 	Name = "Anlynx Hub V2",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/anlynxx/Orionlib/refs/heads/main/MY-HUBS/AnlynxHubV2"))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/webglossdev/Orionlib/refs/heads/main/MY-HUBS/AnlynxHubV2"))()
   	end    
 })
