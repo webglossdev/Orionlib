@@ -1,4 +1,4 @@
-
+-- Not made by me!
 local player = game.Players.LocalPlayer
 local character = player.Character or player.CharacterAdded:Wait()
 local isR6 = character:FindFirstChild("Torso") ~= nil
