@@ -12,11 +12,11 @@ local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 -- O window Gui
 local Window = Rayfield:CreateWindow({
-   Name = "Webylynx Hub V2ç.1",
+   Name = "WEBGLOSSDEV HUB V3.0.0",
    Icon = 0, -- icone do troço
-   LoadingTitle = "Loading Anlynx Hub...",
-   LoadingSubtitle = "by webglossdev",
-   ShowText = "Rayfield", -- for mobile users to unhide rayfield, change if you'd like
+   LoadingTitle = "Loading WebGlossDev Hub...",
+   LoadingSubtitle = "by @webglossdev",
+   ShowText = "Rayfield", -- da me un gru
    Theme = "Bloom", -- https://docs.sirius.menu/rayfield/configuration/themes
 
    ToggleUIKeybind = Enum.KeyCode.RightShift, -- The keybind to toggle the UI visibility (string like "K" or Enum.KeyCode)
@@ -26,8 +26,8 @@ local Window = Rayfield:CreateWindow({
 
    ConfigurationSaving = {
       Enabled = true,
-      FolderName = Webylynxhub, -- pasta do hub
-      FileName = "Webylynx Hub"
+      FolderName = webglossdevhub3, -- pasta do hub
+      FileName = "webglossdev Hub"
    },
 
    Discord = {
